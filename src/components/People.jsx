@@ -15,7 +15,7 @@ class People extends Component{
             <h1>name: {this.props.f_Name} {this.props.l_Name}</h1> 
             <h3>age {this.state.age}</h3>
             <h3>hair color: {this.props.hairColor}</h3>
-            <button onClick={()=>{ this.setState({age: this.state.age+1}) }}>age + 1</button>
+            <button onClick={()=>{ this.setState({age: this.state.age+1}) }}>age + 1 for {this.props.f_Name}</button>
         </div>
         )
     }
